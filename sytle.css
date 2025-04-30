@@ -1,12 +1,29 @@
 nav {
-    background-color: powderblue;
+    background-color: rgba(228, 181, 140, 0.774);
+    background-position-x: center;
     font-size: large;
     font-weight: bold;
     display: flex;
     justify-content: space-evenly;
+
   }
+
   img {
     display: block;
     margin: auto;
+    border-radius: 20px;
  
   }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  body{
+    background-color: peachpuff;
+  }
+
